@@ -25,7 +25,7 @@ jobs:
     - name: Install system dependencies
       run: |
         sudo apt-get update
-        sudo apt-get install -y build-essential ccache git libncurses5 libstdc++6 libgtk2.0-0 libpangox-1.0-0 python3-pip unzip openjdk-8-jdk
+        sudo apt-get install -y build-essential ccache git libncurses6 libstdc++6 libgtk2.0-0 libpangox-1.0-0 python3-pip unzip openjdk-8-jdk
 
     - name: Build APK
       run: |
